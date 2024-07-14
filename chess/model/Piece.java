@@ -17,21 +17,14 @@ public abstract class Piece {
         this.hasMoved = false;
     }
 
-    public int getX() {
-        return this.point.getX();
+    public Point getPoint() {
+        return this.point;
     }
 
-    public void setX(int x) {
-        this.point.setX(x);
+    public void setPoint(Point p) {
+        this.point = p;
     }
 
-    public int getY() {
-        return this.point.getY();
-    }
-
-    public void setY(int y) {
-        this.point.setY(y);
-    }
 
     public boolean isWhite() {
         return this.isWhite;
