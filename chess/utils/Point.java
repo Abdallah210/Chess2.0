@@ -31,4 +31,12 @@ public class Point {
     }
 
     
+    public boolean isPair(){
+        if ((this.getX()+this.getY())%2==0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    
 }
